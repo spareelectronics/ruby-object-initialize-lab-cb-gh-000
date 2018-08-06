@@ -1,5 +1,10 @@
 class Person
 
+
+  def initialize(name)
+    @name = name
+  end
+
   def name=(get_name)
     @name = get_name
   end
